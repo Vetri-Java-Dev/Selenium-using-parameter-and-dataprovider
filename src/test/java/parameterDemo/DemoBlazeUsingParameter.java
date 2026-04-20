@@ -15,7 +15,7 @@ public class DemoBlazeUsingParameter {
 
     @Test
     @Parameters({"correctUsername", "correctPassword"})
-    public void validLoginTest(String username, String password) {
+    public void validLoginTest(@Optional("vetri1734") String username,@Optional("1234")  String password) {
 
         driver.get().findElement(By.id("login2")).click();
 
