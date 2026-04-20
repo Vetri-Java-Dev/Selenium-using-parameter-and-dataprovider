@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+      <span class="top-banner-font-1">1 suite</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-DemoBlaze_Suite" class="navigator-link">
-              <span class="suite-name border-failed">DemoBlaze Suite</span>
+              <span class="suite-name border-passed">DemoBlaze Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -50,7 +50,7 @@
               <ul>
                 <li>
                   <a href="#" panel-name="test-xml-DemoBlaze_Suite" class="navigator-link ">
-                    <span>C:\Users\Vetrivel B\eclipse-workspace\Selenium-TestNg\parameterDemo\testng.xml</span>
+                    <span>C:\Users\Vetrivel B\eclipse-workspace\Selenium-TestNg\Selenium-parameter-dataprovider\testng.xml</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,26 +92,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">3 methods, 2 failed,   1 passed</span>
-                  </li>
-                  <li>
-                    <span class="method-list-title failed">Failed methods</span>
-                    <span class="show-or-hide-methods failed">
-                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="hide-methods failed suite-DemoBlaze_Suite"> (hide)</a> <!-- hide-methods failed suite-DemoBlaze_Suite -->
-                      <a href="#" panel-name="suite-DemoBlaze_Suite" class="show-methods failed suite-DemoBlaze_Suite"> (show)</a> <!-- show-methods failed suite-DemoBlaze_Suite -->
-                    </span>
-                    <div class="method-list-content failed suite-DemoBlaze_Suite">
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="parameterDemo.DemoBlazeUsingParameter" class="method navigator-link" hash-for-method="invalid(vetri1734, 123)">invalid(vetri1734, 123)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="failed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="parameterDemo.DemoBlazeUsingParameter" class="method navigator-link" hash-for-method="validLoginTest(vetri1734, 1234)">validLoginTest(vetri1734, 1234)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                    </div> <!-- method-list-content failed suite-DemoBlaze_Suite -->
+                    <span class="method-stats">3 methods,   3 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -122,7 +103,17 @@
                     <div class="method-list-content passed suite-DemoBlaze_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="parameterDemo.DemoBlazeUsingParameter" class="method navigator-link" hash-for-method="invalid(vetri173, 1234)">invalid(vetri173, 1234)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="parameterDemo.DemoBlazeUsingParameter" class="method navigator-link" hash-for-method="invalidPassword(vetri173, 1234)">invalidPassword(vetri173, 1234)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="parameterDemo.DemoBlazeUsingParameter" class="method navigator-link" hash-for-method="invalidPassword(vetri1734, 123)">invalidPassword(vetri1734, 123)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-DemoBlaze_Suite" title="parameterDemo.DemoBlazeUsingParameter" class="method navigator-link" hash-for-method="validLoginTest(vetri1734, 1234)">validLoginTest(vetri1734, 1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-DemoBlaze_Suite -->
@@ -137,83 +128,6 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-DemoBlaze_Suite" class="panel DemoBlaze_Suite">
-          <div class="suite-DemoBlaze_Suite-class-failed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="failed.png"/>
-              <span class="class-name">parameterDemo.DemoBlazeUsingParameter</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="invalid(vetri1734, 123)">
-                  </a> <!-- invalid(vetri1734, 123) -->
-                  <span class="method-name">invalid</span>
-                  <span class="parameters">(vetri1734,123)</span>
-                  <div class="stack-trace">org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=147.0.7727.57)
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2fd471aa8f21627f2963f1099c272b16, sendKeysToElement {value=[Ljava.lang.CharSequence;@1cc72d07, id=f.78C15633D65FF00BE82A5575004AB67A.d.37B61C670C9167C7F415DC184A630C40.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\VETRIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58736}, goog:processID: 13248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58736/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2fd471aa8f21627f2963f1099c272b16)] -&gt; id: loginusername]
-Session ID: 2fd471aa8f21627f2963f1099c272b16
-	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-	at parameterDemo.DemoBlazeUsingParameter.invalid(DemoBlazeUsingParameter.java:41)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-... Removed 7 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="validLoginTest(vetri1734, 1234)">
-                  </a> <!-- validLoginTest(vetri1734, 1234) -->
-                  <span class="method-name">validLoginTest</span>
-                  <span class="parameters">(vetri1734,1234)</span>
-                  <div class="stack-trace">org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=147.0.7727.57): Wrong password.
-Build info: version: &apos;4.43.0&apos;, revision: &apos;dd0f534&apos;
-System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;24.0.2&apos;
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec1db4c48bf9db5b5107aa0efe06c7b5, findElements {value=nameofuser, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\VETRIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61553}, goog:processID: 21688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61553/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec1db4c48bf9db5b5107aa0efe06c7b5
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:183)
-	at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:104)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:442)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:436)
-	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:259)
-	at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:250)
-	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-	at parameterDemo.DemoBlazeUsingParameter.validLoginTest(DemoBlazeUsingParameter.java:30)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-	at java.base/java.lang.Thread.run(Thread.java:1447)
-... Removed 11 stack frames
-</div> <!-- stack-trace -->
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-DemoBlaze_Suite-class-failed -->
           <div class="suite-DemoBlaze_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -222,10 +136,26 @@ Session ID: ec1db4c48bf9db5b5107aa0efe06c7b5
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="invalid(vetri173, 1234)">
-                  </a> <!-- invalid(vetri173, 1234) -->
-                  <span class="method-name">invalid</span>
+                  <a name="invalidPassword(vetri173, 1234)">
+                  </a> <!-- invalidPassword(vetri173, 1234) -->
+                  <span class="method-name">invalidPassword</span>
                   <span class="parameters">(vetri173,1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPassword(vetri1734, 123)">
+                  </a> <!-- invalidPassword(vetri1734, 123) -->
+                  <span class="method-name">invalidPassword</span>
+                  <span class="parameters">(vetri1734,123)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="validLoginTest(vetri1734, 1234)">
+                  </a> <!-- validLoginTest(vetri1734, 1234) -->
+                  <span class="method-name">validLoginTest</span>
+                  <span class="parameters">(vetri1734,1234)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -233,7 +163,7 @@ Session ID: ec1db4c48bf9db5b5107aa0efe06c7b5
         </div> <!-- panel DemoBlaze_Suite -->
         <div panel-name="test-xml-DemoBlaze_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">C:\Users\Vetrivel B\eclipse-workspace\Selenium-TestNg\parameterDemo\testng.xml</span>
+            <span class="header-content">C:\Users\Vetrivel B\eclipse-workspace\Selenium-TestNg\Selenium-parameter-dataprovider\testng.xml</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <pre>
@@ -290,20 +220,20 @@ data.addRows(3);
 data.setCell(0, 0, 0)
 data.setCell(0, 1, 'validLoginTest')
 data.setCell(0, 2, 'parameterDemo.DemoBlazeUsingParameter')
-data.setCell(0, 3, 2409);
+data.setCell(0, 3, 4089);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'invalid')
+data.setCell(1, 1, 'invalidPassword')
 data.setCell(1, 2, 'parameterDemo.DemoBlazeUsingParameter')
-data.setCell(1, 3, 2334);
+data.setCell(1, 3, 3337);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'invalid')
+data.setCell(2, 1, 'invalidPassword')
 data.setCell(2, 2, 'parameterDemo.DemoBlazeUsingParameter')
-data.setCell(2, 3, 538);
+data.setCell(2, 3, 2445);
 window.suiteTableData['DemoBlaze_Suite']= { tableData: data, tableDiv: 'times-div-DemoBlaze_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 seconds</span>
+              <span class="suite-total-time">Total running time: 9 seconds</span>
               <div id="times-div-DemoBlaze_Suite">
               </div> <!-- times-div-DemoBlaze_Suite -->
             </div> <!-- times-div -->
@@ -336,39 +266,35 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
-                <span class="method-start">4 ms</span>
+                <span class="method-start">3 ms</span>
               </div> <!-- configuration-method before -->
               <div class="configuration-method before">
                 <span class="method-name">setup</span>
                 <span class="method-start">4 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <img src="failed.png">
-                </img>
+                <span class="method-name">invalidPassword(vetri173, 1234)</span>
+                <span class="method-start">5261 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">invalidPassword(vetri1734, 123)</span>
+                <span class="method-start">6848 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
                 <span class="method-name">validLoginTest(vetri1734, 1234)</span>
-                <span class="method-start">6401 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">invalid(vetri173, 1234)</span>
-                <span class="method-start">6411 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <img src="failed.png">
-                </img>
-                <span class="method-name">invalid(vetri1734, 123)</span>
-                <span class="method-start">6460 ms</span>
+                <span class="method-start">6987 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">7014 ms</span>
+                <span class="method-start">8607 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">8748 ms</span>
+                <span class="method-start">9296 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method after">
                 <span class="method-name">teardown</span>
-                <span class="method-start">8814 ms</span>
+                <span class="method-start">11078 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

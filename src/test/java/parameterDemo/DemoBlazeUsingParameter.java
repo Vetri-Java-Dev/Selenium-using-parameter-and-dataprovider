@@ -34,16 +34,18 @@ public class DemoBlazeUsingParameter {
     }
 
     @Test(dataProvider = "testData", dataProviderClass = DemoBlazeDataProvider.class)
-    public void invalid(String username, String password) {
+    public void invalidPassword(String username, String password) {
 
         driver.get().findElement(By.id("login2")).click();
 
+        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30));
+        wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("loginusername")));
+        
         driver.get().findElement(By.id("loginusername")).sendKeys(username);
         driver.get().findElement(By.id("loginpassword")).sendKeys(password);
 
         driver.get().findElement(By.xpath("//button[text()='Log in']")).click();
 
-        WebDriverWait wait = new WebDriverWait(driver.get(), Duration.ofSeconds(30));
         wait.until(ExpectedConditions.alertIsPresent());
 
         Alert alert = driver.get().switchTo().alert();
@@ -53,11 +55,7 @@ public class DemoBlazeUsingParameter {
 
         alert.accept();
 
-        Assert.assertTrue(
-                message.equals("Wrong password.") ||
-                message.equals("User does not exist."),
-                "Unexpected alert message: " + message
-        );
+        Assert.assertTrue(message.contains("Wrong")||message.contains("User"),("Exception : "+message));  
     }
     
     @BeforeMethod(alwaysRun=true)

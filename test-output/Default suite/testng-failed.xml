@@ -5,10 +5,9 @@
     <classes>
       <class name="parameterDemo.DemoBlazeUsingParameter">
         <methods>
-          <include name="beforeTest"/>
-          <include name="invalid"/>
-          <include name="afterTest"/>
+          <include name="setup"/>
           <include name="validLoginTest"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- parameterDemo.DemoBlazeUsingParameter -->
     </classes>

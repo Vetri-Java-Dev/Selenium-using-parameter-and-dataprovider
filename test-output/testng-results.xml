@@ -1,94 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="1" failed="2" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-04-20T21:26:46 IST" name="DemoBlaze Suite" finished-at="2026-04-20T21:26:55 IST" duration-ms="9160">
+  <suite started-at="2026-04-20T22:35:28 IST" name="DemoBlaze Suite" finished-at="2026-04-20T22:35:39 IST" duration-ms="11494">
     <groups>
     </groups>
-    <test started-at="2026-04-20T21:26:46 IST" name="Login Test" finished-at="2026-04-20T21:26:55 IST" duration-ms="9160">
+    <test started-at="2026-04-20T22:35:28 IST" name="Login Test" finished-at="2026-04-20T22:35:39 IST" duration-ms="11494">
       <class name="parameterDemo.DemoBlazeUsingParameter">
-        <test-method is-config="true" signature="setup()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:46 IST" name="setup" finished-at="2026-04-20T21:26:52 IST" duration-ms="6398" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:28 IST" name="setup" finished-at="2026-04-20T22:35:35 IST" duration-ms="6987" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:46 IST" name="setup" finished-at="2026-04-20T21:26:52 IST" duration-ms="6456" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:28 IST" name="setup" finished-at="2026-04-20T22:35:33 IST" duration-ms="5256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:46 IST" name="setup" finished-at="2026-04-20T21:26:52 IST" duration-ms="6407" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:28 IST" name="setup" finished-at="2026-04-20T22:35:35 IST" duration-ms="6843" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:52 IST" name="validLoginTest" finished-at="2026-04-20T21:26:55 IST" duration-ms="2409" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[vetri1734]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[1234]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.UnhandledAlertException">
-            <message>
-              <![CDATA[unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=147.0.7727.57): Wrong password.
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec1db4c48bf9db5b5107aa0efe06c7b5, findElements {value=nameofuser, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\VETRIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61553}, goog:processID: 21688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61553/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec1db4c48bf9db5b5107aa0efe06c7b5]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.UnhandledAlertException: unexpected alert open: {Alert text : Wrong password.}
-  (Session info: chrome=147.0.7727.57): Wrong password.
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ec1db4c48bf9db5b5107aa0efe06c7b5, findElements {value=nameofuser, using=id}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\VETRIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:61553}, goog:processID: 21688, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:61553/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ec1db4c48bf9db5b5107aa0efe06c7b5
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:140)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElements(ElementLocation.java:183)
-at org.openqa.selenium.remote.ElementLocation.findElements(ElementLocation.java:104)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:442)
-at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:436)
-at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:259)
-at org.openqa.selenium.support.ui.ExpectedConditions$8.apply(ExpectedConditions.java:250)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:210)
-at parameterDemo.DemoBlazeUsingParameter.validLoginTest(DemoBlazeUsingParameter.java:30)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:1005)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:545)
-at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:328)
-at org.testng.internal.thread.graph.TestNGFutureTask.run(TestNGFutureTask.java:22)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-at java.base/java.lang.Thread.run(Thread.java:1447)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.UnhandledAlertException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validLoginTest -->
-        <test-method signature="invalid(java.lang.String,java.lang.String)[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:52 IST" name="invalid" data-provider="testData" finished-at="2026-04-20T21:26:55 IST" duration-ms="2334" status="PASS">
+        <test-method signature="invalidPassword(java.lang.String,java.lang.String)[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:33 IST" name="invalidPassword" data-provider="testData" finished-at="2026-04-20T22:35:37 IST" duration-ms="3337" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -103,8 +34,8 @@ at java.base/java.lang.Thread.run(Thread.java:1447)
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalid -->
-        <test-method signature="invalid(java.lang.String,java.lang.String)[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:52 IST" name="invalid" data-provider="testData" finished-at="2026-04-20T21:26:53 IST" duration-ms="538" status="FAIL">
+        </test-method> <!-- invalidPassword -->
+        <test-method signature="invalidPassword(java.lang.String,java.lang.String)[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:35 IST" name="invalidPassword" data-provider="testData" finished-at="2026-04-20T22:35:37 IST" duration-ms="2445" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -117,63 +48,34 @@ at java.base/java.lang.Thread.run(Thread.java:1447)
               </value>
             </param>
           </params>
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
-            <message>
-              <![CDATA[element not interactable
-  (Session info: chrome=147.0.7727.57)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2fd471aa8f21627f2963f1099c272b16, sendKeysToElement {value=[Ljava.lang.CharSequence;@1cc72d07, id=f.78C15633D65FF00BE82A5575004AB67A.d.37B61C670C9167C7F415DC184A630C40.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\VETRIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58736}, goog:processID: 13248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58736/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2fd471aa8f21627f2963f1099c272b16)] -> id: loginusername]
-Session ID: 2fd471aa8f21627f2963f1099c272b16]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
-  (Session info: chrome=147.0.7727.57)
-Build info: version: '4.43.0', revision: 'dd0f534'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '24.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [2fd471aa8f21627f2963f1099c272b16, sendKeysToElement {value=[Ljava.lang.CharSequence;@1cc72d07, id=f.78C15633D65FF00BE82A5575004AB67A.d.37B61C670C9167C7F415DC184A630C40.e.29}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 147.0.7727.57, chrome: {chromedriverVersion: 147.0.7727.57 (b4f28b5637d0..., userDataDir: C:\Users\VETRIV~1\AppData\L...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58736}, goog:processID: 13248, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58736/devtoo..., se:cdpVersion: 147.0.7727.57, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (2fd471aa8f21627f2963f1099c272b16)] -> id: loginusername]
-Session ID: 2fd471aa8f21627f2963f1099c272b16
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:169)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:223)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:606)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:110)
-at parameterDemo.DemoBlazeUsingParameter.invalid(DemoBlazeUsingParameter.java:41)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
-at java.base/java.lang.reflect.Method.invoke(Method.java:565)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:697)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:81)
-at org.testng.internal.thread.Async$AsyncTask.run(Async.java:34)
-at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
-at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
-at java.base/java.lang.Thread.run(Thread.java:1447)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- invalid -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:53 IST" name="teardown" finished-at="2026-04-20T21:26:54 IST" duration-ms="702" status="PASS">
+        </test-method> <!-- invalidPassword -->
+        <test-method signature="validLoginTest(java.lang.String,java.lang.String)[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:35 IST" name="validLoginTest" finished-at="2026-04-20T22:35:39 IST" duration-ms="4089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[vetri1734]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validLoginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:37 IST" name="teardown" finished-at="2026-04-20T22:35:37 IST" duration-ms="304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:55 IST" name="teardown" finished-at="2026-04-20T21:26:55 IST" duration-ms="300" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:37 IST" name="teardown" finished-at="2026-04-20T22:35:38 IST" duration-ms="274" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T21:26:55 IST" name="teardown" finished-at="2026-04-20T21:26:55 IST" duration-ms="266" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:parameterDemo.DemoBlazeUsingParameter@479d31f3]" started-at="2026-04-20T22:35:39 IST" name="teardown" finished-at="2026-04-20T22:35:39 IST" duration-ms="330" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
